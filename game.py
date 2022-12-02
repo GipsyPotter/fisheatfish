@@ -36,7 +36,7 @@ while not exit:
             continue
     if fishes[choice - 1] < startFish:
         round += 1
-        continueChoice = input("Do you want to continue? YES = 1/NO = 2")
+        continueChoice = input("Do you want to continue? YES = 1/NO = 2: ")
         if continueChoice == "1":
             fishes.clear()
             continue
