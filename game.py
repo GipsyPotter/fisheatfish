@@ -29,7 +29,7 @@ while not exit:
         print(f"Opt{i + 1}: Size {fishes[i]}", end="   ")
     while True:
         choice = int(input("Your choices:"))
-        if (choice.isdigit() and int(choice) < numEnemyFish):
+        if (choice < numEnemyFish):
             break
         else:
             print("Invalid input (Too big or not a integer)")
